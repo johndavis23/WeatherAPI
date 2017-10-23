@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="Bootstrap/Bootstrap.php" colors="true">
+    <testsuites>
+<!--
+        <testsuite name="Test Cron Expression">
+            <directory>./vendor/mtdowling/cron-expression/tests/Cron/</directory>
+        </testsuite>
+-->
+        <testsuite name="Test Application">
+            <file>unit_test/TestWeatherAPI/Test.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
